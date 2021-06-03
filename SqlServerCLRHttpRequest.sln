@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31320.298
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpRequest", "HttpRequest\HttpRequest.csproj", "{751206A2-F0CA-4DB8-9E5E-1572C8C81667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpRequestAsync", "HttpRequestAsync\HttpRequestAsync.csproj", "{B2B76143-5F47-4364-9381-66F57C9FB36C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{751206A2-F0CA-4DB8-9E5E-1572C8C81667} = {751206A2-F0CA-4DB8-9E5E-1572C8C81667}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{751206A2-F0CA-4DB8-9E5E-1572C8C81667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{751206A2-F0CA-4DB8-9E5E-1572C8C81667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{751206A2-F0CA-4DB8-9E5E-1572C8C81667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{751206A2-F0CA-4DB8-9E5E-1572C8C81667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B76143-5F47-4364-9381-66F57C9FB36C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B76143-5F47-4364-9381-66F57C9FB36C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B76143-5F47-4364-9381-66F57C9FB36C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B76143-5F47-4364-9381-66F57C9FB36C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFAD9AA9-AF6A-4499-A278-E368B2B2B79A}
+	EndGlobalSection
+EndGlobal
